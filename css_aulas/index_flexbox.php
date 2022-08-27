@@ -55,7 +55,7 @@
                 order:0;
             }
             .bloco-5 {
-                background-color: aqua;
+                background-color: ;
                 width: 50px;
                 height: 50px; 
             }
@@ -75,7 +75,7 @@
                 height: 50px; 
             } 
             .bloco-9 {
-                background-color: background;
+                background-color: aqua;
                 width: 50px;
                 height: 50px; 
             }
