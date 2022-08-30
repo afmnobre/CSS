@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 de ago. de 2022, 20:17:21
+    Author     : afmnobre
+*/
+/*      GLOBAL      */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFEDD5;
+    font-family:'Roboto', sans-serif;
+}
+h1, h2, h3, .price {
+    font-family:'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+}
+ul {
+    list-style: none;
+}
+header {
+    padding: 32px 0;
+    text-align: center;
+}
+header,
+section {
+    max-width: 300px;
+    margin: 0 auto;
+}
+section {
+        margin-bottom: 24px;
+}
+section h2 {
+    background-color: #FED7AA;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+header h1 {
+    margin-bottom: 4px;
+    font-size:28px;
+    line-height: 33px; 
+}
+
+heade p {
+    font-size:14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 span {
+    color: #995000;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+}
+li .details{
+    max-width: 240px;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.details p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size:14px;
+    line-height: 21px;
+}
