@@ -1,0 +1,41 @@
+:root{
+    --gap : 1rem;
+    --bg : #dcdcdc;
+    --main : #262626
+}
+
+.layout {
+    display:grid;
+    grid-gap:var(--gap);
+    grid-template-areas:
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    grid-template-rows: 100px calc(100vh - 182px) 50px;
+}
+
+.grid{
+    background:var(--bg);
+}
+
+.grid-header{
+    grid-area:header;
+    background-color:var(--main);
+}
+
+.grid-main{
+    grid-area:main;
+    background-color:blue;
+    margin-left:var(--gap);
+}
+
+.grid-aside{
+    grid-area:aside;
+    background-color: green;
+    margin-right:var(--gap);
+}
+
+.grid-footer{
+    grid-area:footer;
+    background-color:var(--main);
+}
