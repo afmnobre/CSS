@@ -1,0 +1,14 @@
+@import url=('http://fonts.cdnfonts.com/css/cyberpubk-is-not-dead');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body {
+    font-size:100%;
+
+}
+
