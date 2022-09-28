@@ -1,4 +1,5 @@
-@import url=('http://fonts.cdnfonts.com/css/cyberpubk-is-not-dead');
+@import url('http://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+
 
 *{
     margin:0px;
@@ -9,6 +10,44 @@
 
 body {
     font-size:100%;
+    font-family: 'Cyberpunk Is Not Dead',sans-serif;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+    padding:24px;
+    background-color:#262626;
+}
+
+.cabecalho-imagem{
+    width:100px;
 
 }
 
+.cabecalho-menu{
+    display:flex;
+    gap:32px;
+}
+
+.cabecalho-menu-item{
+    color:white;
+    text-shadow: 1px 1px 1px red;
+}
+
+.cabecalho-menu-item:hover{
+    color:yellow;
+}
+
+.conteudo{
+    border: 0.4px solid #0000FF;
+    background-color:blue;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}

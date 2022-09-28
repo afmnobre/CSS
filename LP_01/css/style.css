@@ -1,0 +1,128 @@
+@import url('http://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body {
+    font-size:100%;
+    font-family: 'Cyberpunk Is Not Dead',sans-serif;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+    padding:24px;
+    background-color:#262626;
+}
+
+.cabecalho-imagem{
+    width:100px;
+
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap:32px;
+}
+
+.cabecalho-menu-item{
+    color:white;
+    text-shadow: 1px 1px 1px red;
+    margin:0 20px 0 0;
+}
+
+.cabecalho-menu-item:hover{
+    color:yellow;
+}
+
+.conteudo{
+    border: 0.4px solid #0000FF;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.conteudo-principal-escrito{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-weight:700;
+    text-shadow: 1px 1px 1px red;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-weight:400px;
+    text-shadow: 1px 1px 1px blue;
+    font-size:2em;
+}
+
+.conteudo-principal-imagem{
+    height:430px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color:#FF4800;
+    color:#808080;
+    border-radius:10px;
+    border: 2px solid #808080;
+    width: 180px;
+    height: 67px;
+    text-shadow: 1px 1px 1px black;
+    text-align:center;
+    padding:25px 0 0 0;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+}
+
+.conteudo-principal-escrito-botao:hover{
+    color:yellow;
+    background-color:purple;
+}
+
+.conteudo-secundario{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:24px;
+    margin-top:48px;
+    margin-bottom:48px;
+    padding:15px;
+    background-image:url("../img/cyberpunk/fundowave.png");
+    background-color:rgba(0,0,0,0.25);
+    color:yellow;
+    text-shadow: 1px 1px 1px black;
+    border: 1px solid #000000;
+}
+
+.conteudo-secundario-titulo{
+    font-size:15px;
+    font-weight:400;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: sans-serif;
+    font-size:15px;
+}
+
+.rodape{
+    background-color:#262626;
+}
+
+.rodape-imagem{
+    width:250px;
+    display: block;
+    margin:0 auto;
+}
